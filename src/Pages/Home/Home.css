@@ -1,0 +1,40 @@
+.Home .booksContain{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Home{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Home .add_contain{
+    display: flex;
+    gap: 10px;
+}
+
+.Home .add_contain input{
+    font-size: 20px;
+    height: 30px;
+    width: 250px;
+    padding: 3px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.Home .add_contain .submit_btn{
+    height: 40px;
+    width: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .Home .add_contain input{
+        height: 25px;
+        width: 200px;
+    }
+    .Home .add_contain .submit_btn{
+        height: 34px;
+        width: 100px;
+    }
+}

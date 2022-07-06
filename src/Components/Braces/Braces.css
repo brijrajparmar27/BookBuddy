@@ -1,0 +1,16 @@
+.Braces{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: "left content right";
+}
+.content{
+    grid-area: content;
+}
+@media only screen and (max-width: 600px) {
+    .Braces {
+        grid-template-columns: 1fr 8fr 1fr;
+        grid-template-areas: "left content right";
+    }
+  }
+.left{grid-area: left;}
+.right{grid-area: right;}

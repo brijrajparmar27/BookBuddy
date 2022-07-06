@@ -1,0 +1,32 @@
+.Login{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Login .loginForm{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Login .loginForm input{
+    height: 20px;
+    width: 250px;
+    padding: 3px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.Login .loginForm .submit_btn{
+    height: 40px;
+    width: 100px;
+}
+
+.Login .loginForm a{
+    cursor: pointer;
+    text-decoration: none;
+    color: rgb(52, 125, 194);
+}

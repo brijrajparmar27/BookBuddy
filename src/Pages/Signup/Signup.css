@@ -1,0 +1,31 @@
+.Signup{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.Signup .signupForm{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Signup .signupForm input{
+    height: 20px;
+    width: 250px;
+    padding: 3px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.Signup .signupForm .submit_btn{
+    height: 40px;
+    width: 100px;
+}
+
+.Signup .signupForm a{
+    text-decoration: none;
+    color: rgb(52, 125, 194);
+}
